@@ -1,0 +1,313 @@
+{
+    "targetUrl": "https://google-gruyere.appspot.com/",
+    "alerts": [
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/7",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Low",
+            "name": "Strict-Transport-Security Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/sitemap.xml",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Low",
+            "name": "Strict-Transport-Security Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/resetbutton",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Retrieved from Cache",
+            "uri": "https://google-gruyere.appspot.com/static/cheese_w.png",
+            "param": "",
+            "evidence": "Age: 0"
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/0",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/8",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/robots.txt",
+            "param": "cache-control",
+            "evidence": "public, max-age=600"
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/4",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/9",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/part2",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/3",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/part1",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Retrieved from Cache",
+            "uri": "https://google-gruyere.appspot.com/static/cheese_b.png",
+            "param": "",
+            "evidence": "Age: 0"
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/6",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/5",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/2",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Missing Anti-clickjacking Header",
+            "uri": "https://google-gruyere.appspot.com/1",
+            "param": "x-frame-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Low",
+            "name": "Strict-Transport-Security Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/static/cheese_b.png",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Low",
+            "name": "Strict-Transport-Security Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/static/cheese_w.png",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Low",
+            "name": "X-Content-Type-Options Header Missing",
+            "uri": "https://google-gruyere.appspot.com/static/cheese_w.png",
+            "param": "x-content-type-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Low",
+            "name": "X-Content-Type-Options Header Missing",
+            "uri": "https://google-gruyere.appspot.com/static/cheese_b.png",
+            "param": "x-content-type-options",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/5",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Informational",
+            "name": "Retrieved from Cache",
+            "uri": "https://google-gruyere.appspot.com/robots.txt",
+            "param": "",
+            "evidence": "Age: 0"
+        },
+        {
+            "risk": "Low",
+            "name": "Strict-Transport-Security Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/robots.txt",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/6",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/7",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/0",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/7",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/8",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/5",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/6",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/1",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/0",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/4",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/3",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/2",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/1",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Informational",
+            "name": "Re-examine Cache-control Directives",
+            "uri": "https://google-gruyere.appspot.com/9",
+            "param": "cache-control",
+            "evidence": "no-cache"
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/8",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/9",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/3",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/4",
+            "param": "",
+            "evidence": ""
+        },
+        {
+            "risk": "Medium",
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "uri": "https://google-gruyere.appspot.com/2",
+            "param": "",
+            "evidence": ""
+        }
+    ]
+}
