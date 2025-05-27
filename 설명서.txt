@@ -1,2 +1,5 @@
 cd vuln-checker
 npm start
+
+
+간단 분석, 상세분석 기능 완료

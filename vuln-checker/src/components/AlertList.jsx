@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AlertList = ({ alerts }) => {
-  if (alerts.length === 0) return <p>데이터가 없습니다.</p>;
+  if (!alerts || alerts.length === 0) return <p>데이터가 없습니다.</p>;
 
   return (
     <ul className="space-y-3">
