@@ -1,17 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import VulnerabilityList from "./pages/VulnerabilityList";
-import VulnerabilityDetail from "./pages/VulnerabilityDetail";
+import VulnerabilityList from './pages/VulnerabilityList';
+import VulnerabilitySummary from './pages/VulnerabilitySummary';
+import VulnerabilityDetail from './pages/VulnerabilityDetail'; 
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<VulnerabilityList />} />
-        <Route path="/vulnerabilities/:name" element={<VulnerabilityDetail />} />
+        <Route path="/vulnerability-summary" element={<VulnerabilitySummary />} />
+        <Route path="/vulnerability-detail/:name" element={<VulnerabilityDetail />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
-
